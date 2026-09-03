@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://dlc.services/iiif-resource/v3/7/string1string2string3/mgm/18578_1068850",
+  "id": "http://localhost:8000/output/manifests/export1_new/18578_1068850.json",
   "type": "Manifest",
   "label": {
     "nl": [
@@ -12,10 +12,16 @@
       "label": {
         "nl": [
           "Naam"
+        ],
+        "en": [
+          "Name"
         ]
       },
       "value": {
         "nl": [
+          "Cordieriet"
+        ],
+        "en": [
           "Cordieriet"
         ]
       }
@@ -24,12 +30,15 @@
       "label": {
         "nl": [
           "Inventarisnummer(s)"
+        ],
+        "en": [
+          "Inventory number(s)"
         ]
       },
       "value": {
         "nl": [
           "18578",
-          "RGM.1068850"
+          "RGM. 1068850"
         ]
       }
     },
@@ -37,11 +46,17 @@
       "label": {
         "nl": [
           "Locatie van oorsprong"
+        ],
+        "en": [
+          "Location of origin"
         ]
       },
       "value": {
         "nl": [
-          "Aust-Agder, S\u00f6ndeled, Noorwegen"
+          "Aust-Agder, Söndeled, Noorwegen"
+        ],
+        "en": [
+          "Aust-Agder, Söndeled, Noorwegen"
         ]
       }
     },
@@ -49,10 +64,16 @@
       "label": {
         "nl": [
           "Vitrine in MGM"
+        ],
+        "en": [
+          "Cupboard in MGM"
         ]
       },
       "value": {
         "nl": [
+          "6A"
+        ],
+        "en": [
           "6A"
         ]
       }
@@ -61,6 +82,9 @@
       "label": {
         "nl": [
           "Nickel-Strunz classificaties"
+        ],
+        "en": [
+          "Nickel-Strunz classifications"
         ]
       },
       "value": {
@@ -72,25 +96,31 @@
     {
       "label": {
         "nl": [
-          "Materialen"
+          "Rechten"
+        ],
+        "en": [
+          "Rights"
         ]
       },
       "value": {
         "nl": [
-          "cordieriet"
+          "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+        ],
+        "en": [
+          "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
         ]
       }
     }
   ],
   "thumbnail": [
     {
-      "id": "https://dlc.services/thumbs/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/full/1024,/0/default.jpg",
+      "id": "https://dlc.services/thumbs/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/full/200,/0/default.jpg",
       "type": "Image",
-      "height": 683,
-      "width": 1024,
+      "height": 133,
+      "width": 200,
       "service": [
         {
-          "id": "https://dlc.services/thumbs/v3/7/19/87fea022-0994-45ba-a8bf-47f603458bd0",
+          "id": "https://dlc.services/thumbs/v3/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02",
           "type": "ImageService3",
           "profile": "level0",
           "sizes": [
@@ -119,15 +149,15 @@
   ],
   "items": [
     {
-      "id": "https://dlc.services/iiif-img/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/canvas/c/1",
+      "id": "https://dlc.services/iiif-img/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/canvas/c/1",
       "type": "Canvas",
       "label": {
         "nl": [
           "Canvas 1"
         ]
       },
-      "height": 683,
-      "width": 1024,
+      "height": 4912,
+      "width": 7360,
       "requiredStatement": {
         "label": {
           "nl": [
@@ -136,20 +166,20 @@
         },
         "value": {
           "nl": [
-            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img src=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
           ]
         }
       },
       "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
       "thumbnail": [
         {
-          "id": "https://dlc.services/thumbs/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/full/1024,/0/default.jpg",
+          "id": "https://dlc.services/thumbs/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/full/200,/0/default.jpg",
           "type": "Image",
-          "height": 683,
-          "width": 1024,
+          "height": 133,
+          "width": 200,
           "service": [
             {
-              "id": "https://dlc.services/thumbs/v3/7/19/87fea022-0994-45ba-a8bf-47f603458bd0",
+              "id": "https://dlc.services/thumbs/v3/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02",
               "type": "ImageService3",
               "profile": "level0",
               "sizes": [
@@ -178,21 +208,21 @@
       ],
       "items": [
         {
-          "id": "https://dlc.services/iiif-img/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/canvas/c/1/page",
+          "id": "https://dlc.services/iiif-img/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/canvas/c/1/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://dlc.services/iiif-img/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/canvas/c/1/page/image",
+              "id": "https://dlc.services/iiif-img/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/canvas/c/1/page/image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/full/full/0/default.jpg",
                 "type": "Image",
-                "height": 683,
-                "width": 1024,
+                "height": 4912,
+                "width": 7360,
                 "service": [
                   {
-                    "id": "https://dlc.services/iiif-img/v3/7/19/87fea022-0994-45ba-a8bf-47f603458bd0",
+                    "id": "https://dlc.services/iiif-img/v3/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02",
                     "type": "ImageService3",
                     "profile": "level2",
                     "width": 7360,
@@ -202,7 +232,547 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://dlc.services/iiif-img/7/19/87fea022-0994-45ba-a8bf-47f603458bd0/canvas/c/1"
+              "target": "https://dlc.services/iiif-img/7/39/4d76228a-522f-47d6-b1c0-8656e2d3ad02/canvas/c/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlc.services/iiif-img/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189/canvas/c/1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "Canvas 1"
+        ]
+      },
+      "height": 4928,
+      "width": 7380,
+      "requiredStatement": {
+        "label": {
+          "nl": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "nl": [
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189/full/200,/0/default.jpg",
+          "type": "Image",
+          "height": 134,
+          "width": 200,
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/v3/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 100,
+                  "height": 67
+                },
+                {
+                  "width": 200,
+                  "height": 134
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 1024,
+                  "height": 684
+                }
+              ],
+              "@context": "http://iiif.io/api/image/3/context.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-img/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4928,
+                "width": 7380,
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/v3/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 7380,
+                    "height": 4928,
+                    "@context": "http://iiif.io/api/image/3/context.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://dlc.services/iiif-img/7/39/34b29e14-3e9b-43cc-929e-419b1cba2189/canvas/c/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlc.services/iiif-img/7/39/49916d50-d495-4fab-9998-f6ac035c525e/canvas/c/1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "Canvas 3"
+        ]
+      },
+      "height": 4928,
+      "width": 7380,
+      "requiredStatement": {
+        "label": {
+          "nl": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "nl": [
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/39/49916d50-d495-4fab-9998-f6ac035c525e/full/200,/0/default.jpg",
+          "type": "Image",
+          "height": 134,
+          "width": 200,
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/v3/7/39/49916d50-d495-4fab-9998-f6ac035c525e",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 100,
+                  "height": 67
+                },
+                {
+                  "width": 200,
+                  "height": 134
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 1024,
+                  "height": 684
+                }
+              ],
+              "@context": "http://iiif.io/api/image/3/context.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-img/7/39/49916d50-d495-4fab-9998-f6ac035c525e/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/39/49916d50-d495-4fab-9998-f6ac035c525e/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/39/49916d50-d495-4fab-9998-f6ac035c525e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4928,
+                "width": 7380,
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/v3/7/39/49916d50-d495-4fab-9998-f6ac035c525e",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 7380,
+                    "height": 4928,
+                    "@context": "http://iiif.io/api/image/3/context.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://dlc.services/iiif-img/7/39/49916d50-d495-4fab-9998-f6ac035c525e/canvas/c/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlc.services/iiif-img/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8/canvas/c/1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "Canvas 4"
+        ]
+      },
+      "height": 4928,
+      "width": 7380,
+      "requiredStatement": {
+        "label": {
+          "nl": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "nl": [
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8/full/200,/0/default.jpg",
+          "type": "Image",
+          "height": 134,
+          "width": 200,
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/v3/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 100,
+                  "height": 67
+                },
+                {
+                  "width": 200,
+                  "height": 134
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 1024,
+                  "height": 684
+                }
+              ],
+              "@context": "http://iiif.io/api/image/3/context.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-img/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4928,
+                "width": 7380,
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/v3/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 7380,
+                    "height": 4928,
+                    "@context": "http://iiif.io/api/image/3/context.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://dlc.services/iiif-img/7/39/4e1850aa-8df2-4b5a-ad02-7ba0ac9d6ab8/canvas/c/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlc.services/iiif-img/7/39/00669dd9-58eb-4582-8479-8d2382ffe815/canvas/c/1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "Canvas 5"
+        ]
+      },
+      "height": 4928,
+      "width": 7380,
+      "requiredStatement": {
+        "label": {
+          "nl": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "nl": [
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/39/00669dd9-58eb-4582-8479-8d2382ffe815/full/200,/0/default.jpg",
+          "type": "Image",
+          "height": 134,
+          "width": 200,
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/v3/7/39/00669dd9-58eb-4582-8479-8d2382ffe815",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 100,
+                  "height": 67
+                },
+                {
+                  "width": 200,
+                  "height": 134
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 1024,
+                  "height": 684
+                }
+              ],
+              "@context": "http://iiif.io/api/image/3/context.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-img/7/39/00669dd9-58eb-4582-8479-8d2382ffe815/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/39/00669dd9-58eb-4582-8479-8d2382ffe815/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/39/00669dd9-58eb-4582-8479-8d2382ffe815/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4928,
+                "width": 7380,
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/v3/7/39/00669dd9-58eb-4582-8479-8d2382ffe815",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 7380,
+                    "height": 4928,
+                    "@context": "http://iiif.io/api/image/3/context.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://dlc.services/iiif-img/7/39/00669dd9-58eb-4582-8479-8d2382ffe815/canvas/c/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlc.services/iiif-img/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50/canvas/c/1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "Canvas 6"
+        ]
+      },
+      "height": 4928,
+      "width": 7380,
+      "requiredStatement": {
+        "label": {
+          "nl": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "nl": [
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50/full/200,/0/default.jpg",
+          "type": "Image",
+          "height": 134,
+          "width": 200,
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/v3/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 100,
+                  "height": 67
+                },
+                {
+                  "width": 200,
+                  "height": 134
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 1024,
+                  "height": 684
+                }
+              ],
+              "@context": "http://iiif.io/api/image/3/context.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-img/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4928,
+                "width": 7380,
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/v3/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 7380,
+                    "height": 4928,
+                    "@context": "http://iiif.io/api/image/3/context.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://dlc.services/iiif-img/7/39/4dc2f0ed-9ef7-42a3-908c-713e4c8b7d50/canvas/c/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlc.services/iiif-img/7/39/039ae089-f6cc-468e-92b2-baab3582faa5/canvas/c/1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "Canvas 2"
+        ]
+      },
+      "height": 4928,
+      "width": 7380,
+      "requiredStatement": {
+        "label": {
+          "nl": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "nl": [
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/39/039ae089-f6cc-468e-92b2-baab3582faa5/full/200,/0/default.jpg",
+          "type": "Image",
+          "height": 134,
+          "width": 200,
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/v3/7/39/039ae089-f6cc-468e-92b2-baab3582faa5",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 100,
+                  "height": 67
+                },
+                {
+                  "width": 200,
+                  "height": 134
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 1024,
+                  "height": 684
+                }
+              ],
+              "@context": "http://iiif.io/api/image/3/context.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-img/7/39/039ae089-f6cc-468e-92b2-baab3582faa5/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/39/039ae089-f6cc-468e-92b2-baab3582faa5/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/39/039ae089-f6cc-468e-92b2-baab3582faa5/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4928,
+                "width": 7380,
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/v3/7/39/039ae089-f6cc-468e-92b2-baab3582faa5",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 7380,
+                    "height": 4928,
+                    "@context": "http://iiif.io/api/image/3/context.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://dlc.services/iiif-img/7/39/039ae089-f6cc-468e-92b2-baab3582faa5/canvas/c/1"
             }
           ]
         }

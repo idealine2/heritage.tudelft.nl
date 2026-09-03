@@ -1,10 +1,10 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://dlc.services/iiif-resource/v3/7/string1string2string3/mgm/9713_856776",
+  "id": "http://localhost:8000/output/manifests/export1_new/9713_856776.json",
   "type": "Manifest",
   "label": {
     "nl": [
-      "Nikkelien met chloanthiet & calciet"
+      "Nikkelien met Chloanthiet en Calciet"
     ]
   },
   "metadata": [
@@ -12,11 +12,17 @@
       "label": {
         "nl": [
           "Naam"
+        ],
+        "en": [
+          "Name"
         ]
       },
       "value": {
         "nl": [
-          "Nikkelien met chloanthiet & calciet"
+          "Nikkelien met Chloanthiet en Calciet"
+        ],
+        "en": [
+          "Nikkelien met Chloanthiet en Calciet"
         ]
       }
     },
@@ -24,12 +30,15 @@
       "label": {
         "nl": [
           "Inventarisnummer(s)"
+        ],
+        "en": [
+          "Inventory number(s)"
         ]
       },
       "value": {
         "nl": [
           "9713",
-          "RGM.856776"
+          "RGM. 856776"
         ]
       }
     },
@@ -37,10 +46,16 @@
       "label": {
         "nl": [
           "Locatie van oorsprong"
+        ],
+        "en": [
+          "Location of origin"
         ]
       },
       "value": {
         "nl": [
+          "Ontario, Cobalt, La Rose mijn, Canada"
+        ],
+        "en": [
           "Ontario, Cobalt, La Rose mijn, Canada"
         ]
       }
@@ -49,10 +64,16 @@
       "label": {
         "nl": [
           "Vitrine in MGM"
+        ],
+        "en": [
+          "Cupboard in MGM"
         ]
       },
       "value": {
         "nl": [
+          "19C"
+        ],
+        "en": [
           "19C"
         ]
       }
@@ -61,6 +82,9 @@
       "label": {
         "nl": [
           "Nickel-Strunz classificaties"
+        ],
+        "en": [
+          "Nickel-Strunz classifications"
         ]
       },
       "value": {
@@ -74,27 +98,31 @@
     {
       "label": {
         "nl": [
-          "Materialen"
+          "Rechten"
+        ],
+        "en": [
+          "Rights"
         ]
       },
       "value": {
         "nl": [
-          "nikkelien",
-          "chloanthiet",
-          "calciet"
+          "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+        ],
+        "en": [
+          "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
         ]
       }
     }
   ],
   "thumbnail": [
     {
-      "id": "https://dlc.services/thumbs/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/full/1024,/0/default.jpg",
+      "id": "https://dlc.services/thumbs/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/full/200,/0/default.jpg",
       "type": "Image",
-      "height": 685,
-      "width": 1024,
+      "height": 134,
+      "width": 200,
       "service": [
         {
-          "id": "https://dlc.services/thumbs/v3/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef",
+          "id": "https://dlc.services/thumbs/v3/7/39/a5128a01-117a-41c0-9233-fc8750830ac1",
           "type": "ImageService3",
           "profile": "level0",
           "sizes": [
@@ -123,15 +151,15 @@
   ],
   "items": [
     {
-      "id": "https://dlc.services/iiif-img/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/canvas/c/1",
+      "id": "https://dlc.services/iiif-img/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/canvas/c/1",
       "type": "Canvas",
       "label": {
         "nl": [
           "Canvas 1"
         ]
       },
-      "height": 685,
-      "width": 1024,
+      "height": 4936,
+      "width": 7384,
       "requiredStatement": {
         "label": {
           "nl": [
@@ -140,20 +168,20 @@
         },
         "value": {
           "nl": [
-            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img src=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
+            "<span>TU Delft Science Centre. <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" title=\"CC BY-NC-ND 4.0\"><img mgm_processing=\"https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png\"/></a></span>"
           ]
         }
       },
       "rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
       "thumbnail": [
         {
-          "id": "https://dlc.services/thumbs/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/full/1024,/0/default.jpg",
+          "id": "https://dlc.services/thumbs/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/full/200,/0/default.jpg",
           "type": "Image",
-          "height": 685,
-          "width": 1024,
+          "height": 134,
+          "width": 200,
           "service": [
             {
-              "id": "https://dlc.services/thumbs/v3/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef",
+              "id": "https://dlc.services/thumbs/v3/7/39/a5128a01-117a-41c0-9233-fc8750830ac1",
               "type": "ImageService3",
               "profile": "level0",
               "sizes": [
@@ -182,21 +210,21 @@
       ],
       "items": [
         {
-          "id": "https://dlc.services/iiif-img/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/canvas/c/1/page",
+          "id": "https://dlc.services/iiif-img/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/canvas/c/1/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://dlc.services/iiif-img/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/canvas/c/1/page/image",
+              "id": "https://dlc.services/iiif-img/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/canvas/c/1/page/image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/full/full/0/default.jpg",
                 "type": "Image",
-                "height": 685,
-                "width": 1024,
+                "height": 4936,
+                "width": 7384,
                 "service": [
                   {
-                    "id": "https://dlc.services/iiif-img/v3/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef",
+                    "id": "https://dlc.services/iiif-img/v3/7/39/a5128a01-117a-41c0-9233-fc8750830ac1",
                     "type": "ImageService3",
                     "profile": "level2",
                     "width": 7384,
@@ -206,7 +234,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://dlc.services/iiif-img/7/19/c1b5bd23-9e22-4771-b2bf-aaefba7302ef/canvas/c/1"
+              "target": "https://dlc.services/iiif-img/7/39/a5128a01-117a-41c0-9233-fc8750830ac1/canvas/c/1"
             }
           ]
         }
