@@ -10,14 +10,6 @@
       "Fluorescence cabinet"
     ]
   },
-  "summary": {
-    "nl": [
-      "PLACEHOLDER SUMMARY VITRINE fluorescentie_kast"
-    ],
-    "en": [
-      "PLACEHOLDER SUMMARY VITRINE fluorescentie_kast"
-    ]
-  },
   "items": [
     {
       "id": "http://localhost:8000/output/manifests/export1_new/12542_1061239.json",
